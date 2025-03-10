@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #f3f3f3;
+}
+form{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: fit-content;
+    border: #ececec solid 2px;
+    transition: 0.5s;
+
+}
+form:has(input:focus){
+    border: #7a7a7a solid 2px;
+}
+input{
+    border: solid #fff 1px;
+}
+input[type="text"]{
+    width: 1000px;
+    border-right: #a7a7a7 solid 1px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.current{
+    border-bottom: #000 solid 3px;
+}
