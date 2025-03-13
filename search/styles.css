@@ -3,28 +3,51 @@
 }
 body{
     background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-form{
+.form{
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 25px;
     width: fit-content;
     border: #ececec solid 2px;
     transition: 0.5s;
-
+    height: fit-content;
 }
-form:has(input:focus){
+.form:has(input:focus), .form:focus{
     border: #7a7a7a solid 2px;
 }
 input{
     border: solid #fff 1px;
 }
 input[type="text"]{
-    width: 1000px;
-    border-right: #a7a7a7 solid 1px;
+    width: 500px;
 }
 input[type="text"]:focus{
     outline: none;
+}
+.div__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: #1d1dda;
+    border: #1d1dda solid 1px;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #1d1dda;
+
 }
 a{
     color: #000;
@@ -41,4 +64,5 @@ li{
 }
 .current{
     border-bottom: #000 solid 3px;
+    transition: 0.5s;
 }
