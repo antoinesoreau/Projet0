@@ -1,7 +1,7 @@
 *{
     font-family: sans-serif;
 }
-body{
+:root{
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
@@ -57,6 +57,7 @@ a{
 ul{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 li{
     list-style: none;

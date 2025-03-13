@@ -8,11 +8,6 @@ https://www.webrankinfo.com/dossiers/techniques/parametres-google
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form class="form" action="https://google.com/search" target="_blank">
-            <input type="text" name="q" placeholder="Image Search">
-            <input type="hidden" name="tbm" value="isch"> <!-- Paramètre ajouté -->
-            <input type="submit" value="Google Image Search">
-        </form>
         <nav> <!-- Pour les sections image et recherche avancée -->
             <ul>
                 <li><a href="index.html">All</a></li>
@@ -20,5 +15,14 @@ https://www.webrankinfo.com/dossiers/techniques/parametres-google
                 <li><a href="advanced.html">Advanced research</a></li>
             </ul>
         </nav>
+        <form  action="https://google.com/search" target="_blank">
+            <input class="form" type="text" name="q" placeholder="Image Search">
+            <input type="hidden" name="tbm" value="isch"> <!-- Paramètre ajouté -->
+            <div class="div__btn">
+                <input class="btn" type="submit" value="Google Image Search">
+            </div>
+            
+        </form>
+        
     </body>
 </html>
