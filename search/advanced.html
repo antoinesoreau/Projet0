@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/x-icon" href="fav.png">
-    </head>
-    <body>
-        <nav> <!-- Pour les sections image et recherche avancée -->
-            <ul>
-                <li><a href="index.html">All</a></li>
-                <li><a href="image.html">Images</a></li>
-                <li class="current"><a href="advanced.html">Advanced research</a></li>
-            </ul>
-        </nav>
-        <form class="form" action="https://www.google.com/advanced_search?q=advanced+research&ie=UTF-8" target="_blank">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advanced Research">
-        </form>
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="fav.png">
+</head>
+<body>
         
-    </body>
+        
+    
+<header>
+    <img src="logo.svg" alt="logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">All</a></li>
+            <li><a href="image.html">Images</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<main>
+    <form class="" action="https://www.google.com/search" target="_blank">
+        <legend>Find pages with...</legend>
+        <section>
+            <div class="label_input">
+                <label for="all_these_words">all these words:</label>
+                <input class="advanced" type="text" name="q" id="all_these_words">
+            </div>
+            <div class="label_input">
+                <label for="exact_word_phrase">this exact word or phrase:</label>
+                <input class="advanced" type="text" name="q" id="exact_word_phrase">
+            </div>
+        </section>
+    </form>
+</main>
+
+</body>
 </html>

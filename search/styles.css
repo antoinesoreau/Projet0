@@ -5,7 +5,10 @@
 body{
     margin: 0%;
     width: 100%;
+    max-width: 1440px;
 }
+
+/* Form */
 .form{
     background-color: #fff;
     padding: 10px 20px;
@@ -20,6 +23,7 @@ body{
 .form:has(input:focus), .form:focus{
     border: #7a7a7a solid 2px;
 }
+/* Inputs */
 input{
     border: solid #fff 1px;
 }
@@ -29,6 +33,8 @@ input[type="text"]{
 input[type="text"]:focus{
     outline: none;
 }
+
+/* buttons */
 .div__btn{
     display: flex;
     justify-content: center;
@@ -51,11 +57,14 @@ input[type="text"]:focus{
     cursor: pointer;
 
 }
+
+/* Links */
 a{
     color: #000;
     text-decoration: none;
 }
 
+/* Nav */
 nav{
     justify-self: end;
     padding-right: 50px;
@@ -70,9 +79,49 @@ li{
     padding-bottom: 10px;
 }
 
+/* Images */
 img{
     width: 300px;
     display: flex;
     justify-self: center;
     padding: 50px;
+}
+
+
+
+/* Advanced research */
+/* Advanced research header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+header > img{
+    width: 100px;
+    padding: 0%;
+
+}
+header nav{
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    padding: 0;
+}
+/* Advanced research main */
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: small;
+}
+main input{
+    background-color: #0000000e;
 }
