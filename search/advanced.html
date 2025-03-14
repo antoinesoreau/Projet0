@@ -22,18 +22,42 @@
 
 
 <main>
-    <form class="" action="https://www.google.com/search" target="_blank">
-        <legend>Find pages with...</legend>
+    <form class="advancedForm" action="https://www.google.com/search" target="_blank">
+        <legend>Find pages with...</legend><hr>
         <section>
             <div class="label_input">
-                <label for="all_these_words">all these words:</label>
-                <input class="advanced" type="text" name="q" id="all_these_words">
+                <div class="label__right">
+                    <label for="all_these_words">all these words:</label>
+                </div>
+                
+                <input class="advanced" type="text" name="as_q" id="all_these_words">
             </div>
             <div class="label_input">
-                <label for="exact_word_phrase">this exact word or phrase:</label>
-                <input class="advanced" type="text" name="q" id="exact_word_phrase">
+                <div class="label__right">
+                    <label for="exact_word_phrase">this exact word or phrase:</label>
+                </div>
+                
+                <input class="advanced" type="text" name="as_epq" id="exact_word_phrase">
+            </div>
+            <div class="label_input">
+                <div class="label__right">
+                    <label for="any_word">any of these words:</label>
+                </div>
+                
+                <input class="advanced" type="text" name="as_oq" id="any_word">
+            </div>
+            <div class="label_input">
+                <div class="label__right">
+                    <label for="none_word">none of these words:</label>
+                </div>
+                
+                <input class="advanced" type="text" name="as_eq" id="none_word">
             </div>
         </section>
+        <div class="btn__div--Advanced">
+            <input type="submit" value="Advanced Research" class="btn btn--blue">
+        </div>
+        
     </form>
 </main>
 

@@ -118,10 +118,41 @@ section{
     display: flex;
     flex-direction: column;
 }
-
+.label_input{
+    display: flex;
+    margin: 5px;
+}
+.label__right{
+    width: 200px;
+}
 label{
     font-size: small;
 }
 main input{
-    background-color: #0000000e;
+    border: #00000029 solid 1px;
+}
+main input:focus{
+    border-color: #8cb4fc;
+}
+.advancedForm{
+    margin: 20px;
+}
+.btn--blue{
+    background-color: #4d90fe;
+    color: #fff;
+    border: none;
+    justify-self: end;
+    
+}
+.btn--blue:hover{
+    background-color: #8cb4fc;
+    color: #fff;
+}
+.btn__div--Advanced{
+    display: flex;
+    justify-content: flex-end;
+    width: 720px;
+}
+legend{
+    color: #d93025;
 }
